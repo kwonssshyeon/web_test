@@ -11,4 +11,9 @@ public class TestController {
         return "success";
     }
 
+    @GetMapping("/1")
+    public String one(){
+        return "1번 서버용 메소드";
+    }
+
 }
